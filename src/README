@@ -1,0 +1,12 @@
+Instructions for running the program:
+Program should be executed from IntelliJ
+
+Program description:
+Pressing the Generate button will generate a completely new maze. If the Show Generation box is checked then this generation
+will be shown at a speed determined by the value of the speed slider. Otherwise the generation will happen all at once. If the
+animation is shown then pressing pause will resume the generation. If you press Generate while paused then a new maze will be generated.
+Pressing resume will simply resume the maze generation. A similar concept is used for solving the maze. It can only be solved after
+it has been generated. And you can pause/resume the solving by using the same buttons. Changing the rows/columns will only take effect
+when Generate is pressed. This is also true with the speed slider and the Show Generation boxes--you can't pause the generation, change
+the settings, then resume the generation with the new settings. You have to make an entirely new maze. The DFS for solving this maze uses
+the right-hand rule. So it first tries to visit a right neighbor, then a left, then bottom, and finally top.
